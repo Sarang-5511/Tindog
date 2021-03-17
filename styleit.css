@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+}
+#section1{
+    background-color: rgb(233, 50, 178);
+}
+#brands{
+    background-color: rgb(233, 50, 178);
+text-align: center;
+}
+
+.container-fluid{
+    padding: 4% 12%;
+}
+.container2{  
+  margin: 7.5% 0;
+ 
+   
+}
+#section3{
+    background-color: rgb(233, 50, 178);
+    text-align: center;
+    padding: 5% 15%;
+}
+#section4{
+    text-align: center;
+    padding: 5% 15%;
+}
+#section5{
+    background-color: rgb(233, 50, 178);
+    text-align: center;
+    padding: 5% 15%;
+}
+#section6{
+    text-align: center;
+    padding: 5% 15%;
+}
+em{
+    font-size: 1.15em;
+}
+
+.imagenew2{
+    margin: 2.5%;
+    width: 15%;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+h3{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+  font-family: 'Montserrat', sans-serif ;
+}
+p{
+    font-size: 1.15em;
+}
+.navbar{
+    padding-bottom: 2.8em;
+}
+.nav-item{
+    padding: 0 1.25em;
+    
+}
+.nav-link{
+    font-size:1.75em ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-brand{
+   font-size: 3rem;
+    font-weight: bold;
+
+}
+.buttonnew{
+    margin: 6% 3% 0 0;
+}
+.image{
+   
+   width: 60%;
+ 
+    transform: rotate(25deg);
+}
+.imagenew1{
+    border-radius: 50%;
+    margin: 2.5%;
+    width: 20%;
+}
+.column1{
+ 
+    text-align: center;
+   
+    margin: 10%;
+}
+.inside{
+    text-align: center;
+}
+.pricing{
+padding: 3%;
+}
+.logonew{
+    width: 2.5%;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    
+}
+@media (max-width:990px){
+    .image{
+   
+        width: 60%;
+      margin: 2%;
+         transform: rotate(0deg);
+     }
+     #section1{
+        background-color: rgb(233, 50, 178);
+        text-align: center;
+     }
+}
+@media (max-width:632px){
+    .logonew{
+        width: 3.5%;
+        margin-right: 5px;
+        margin-bottom: 7px;
+        
+    }
+}
